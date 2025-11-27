@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology for Renewable Energy</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for Inter font and smooth scrolling */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #f7f7f7;
+        }
+        .section-header {
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        /* Style for the Table of Contents links */
+        .toc-link {
+            transition: color 0.2s;
+        }
+        .toc-link:hover {
+            color: #10b981; /* Emerald 500 */
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-green': '#059669', /* Emerald 600 */
+                        'secondary-green': '#10b981', /* Emerald 500 */
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <!-- Header -->
+        <header class="text-center py-10 rounded-xl shadow-lg bg-white mb-10">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-primary-green tracking-tight">
+                Technology for Renewable Energy
+            </h1>
+            <p class="mt-4 text-xl text-gray-500">
+                Driving the sustainable future of power generation.
+            </p>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+
+            <!-- Table of Contents (Fixed on large screens) -->
+            <nav id="toc" class="lg:col-span-1 p-6 bg-white rounded-xl shadow-lg sticky top-8 h-fit">
+                <h2 class="text-2xl font-semibold mb-4 text-gray-700 border-b pb-2">Table of Contents</h2>
+                <ul class="space-y-3 text-lg">
+                    <li><a href="#section-1" class="toc-link text-gray-600 hover:text-secondary-green">1. Introduction to Renewable Energy</a></li>
+                    <li><a href="#section-2" class="toc-link text-gray-600 hover:text-secondary-green">2. Role of Technology</a></li>
+                    <li><a href="#section-3" class="toc-link text-gray-600 hover:text-secondary-green">3. Solar Energy Technologies</a></li>
+                    <li><a href="#section-4" class="toc-link text-gray-600 hover:text-secondary-green">4. Wind Energy Technologies</a></li>
+                    <li><a href="#section-5" class="toc-link text-gray-600 hover:text-secondary-green">5. Hydro Energy Technologies</a></li>
+                    <li><a href="#section-6" class="toc-link text-gray-600 hover:text-secondary-green">6. Geothermal Energy Technologies</a></li>
+                    <li><a href="#section-7" class="toc-link text-gray-600 hover:text-secondary-green">7. Bioenergy Technologies</a></li>
+                    <li><a href="#section-8" class="toc-link text-gray-600 hover:text-secondary-green">8. Storage and Smart Grids</a></li>
+                    <li><a href="#section-9" class="toc-link text-gray-600 hover:text-secondary-green">9. Trends and Future Outlook</a></li>
+                    <li><a href="#section-10" class="toc-link text-gray-600 hover:text-secondary-green">10. Conclusion</a></li>
+                </ul>
+            </nav>
+
+            <!-- Content Sections -->
+            <div class="lg:col-span-3 space-y-12">
+
+                <!-- 1. Introduction -->
+                <section id="section-1" class="bg-white p-6 sm:p-8 rounded-xl shadow-xl">
+                    <h2 class="text-3xl font-bold text-primary-green section-header mb-4">1. Introduction to Renewable Energy</h2>
+                    <p class="text-lg mb-6 leading-relaxed">
+                        **Renewable energy** refers to energy sources that are naturally replenished on a human timescale, such as **sunlight**, **wind**, **water**, **geothermal heat**, and **biomass**. Unlike finite fossil fuels, renewables offer a sustainable and cleaner alternative to power our world. The urgency to transition to renewables stems from **climate change** and **energy security concerns**. Burning fossil fuels releases greenhouse gases that drive global warming, whereas renewables produce little to no emissions during operation.
+                    </p>
+
+                    <h3 class="text-2xl font-semibold mt-6 mb-4 text-gray-700">Why Renewable Energy?</h3>
+                    <div class="bg-primary-green bg-opacity-10 p-4 rounded-lg border-l-4 border-primary-green">
+                        <p class="font-medium text-lg text-primary-green">
+                            In addition, renewable resources are widely distributed, reducing dependence on imported fuels and enhancing energy security. Many countries have set ambitious targets to increase renewable energy in their mix, leading to massive investment and technological advancement.
+                        </p>
+                    </div>
+
+                    <!-- Mock Chart Data Representation -->
+                    <div class="mt-8">
+                        <h4 class="text-xl font-semibold mb-3 text-center text-gray-700">New Power Capacity Additions in 2024</h4>
+                        <div class="flex flex-col items-center">
+                            <div class="w-full max-w-md bg-gray-200 rounded-full h-8 mb-2 overflow-hidden">
+                                <div class="bg-secondary-green h-8 rounded-full flex items-center justify-center" style="width: 92.86%;">
+                                    <span class="text-white text-sm font-bold ml-2">92.86% Renewables</span>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-500 mt-1">Renewables dominate new installations, highlighting their growing market dominance.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. Role of Technology -->
+                <section id="section-2" class="bg-white p-6 sm:p-8 rounded-xl shadow-xl">
+                    <h2 class="text-3xl font-bold text-primary-green section-header mb-4">2. Role of Technology in Renewable Energy</h2>
+                    <p class="text-lg leading-relaxed">
+                        Technology is the primary catalyst driving the energy transition. Advances in engineering and material science have drastically improved the **efficiency** and **cost-effectiveness** of renewable systems. Key roles include:
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 mt-4 ml-4 text-lg">
+                        <li>**Cost Reduction:** Mass production and better materials have led to dramatic drops in the Levelized Cost of Energy (LCOE) for solar and wind.</li>
+                        <li>**Performance Enhancement:** Innovation in blade design (wind) and cell composition (solar) increases energy yield per installation.</li>
+                        <li>**Integration & Stability:** Advanced software, **AI**, and **Smart Grid** technologies manage the intermittent nature of renewables, ensuring grid stability.</li>
+                        <li>**Energy Storage:** Breakthroughs in battery chemistry and long-duration storage are solving the "when the sun isn't shining" problem.</li>
+                    </ul>
+                </section>
+
+                <!-- 3. Solar Energy Technologies -->
+                <section id="section-3" class="bg-white p-6 sm:p-8 rounded-xl shadow-xl">
+                    <h2 class="text-3xl font-bold text-primary-green section-header mb-4">3. Solar Energy Technologies</h2>
+                    <p class="text-lg leading-relaxed">
+                        Solar energy utilizes the sun's radiation for power and heat. The two main technological pathways are Photovoltaics and Concentrated Solar Power.
+                    </p>
+                    <h3 class="text-2xl font-semibold mt-6 mb-3 text-gray-700">Photovoltaics (PV)</h3>
+                    <p class="text-lg leading-relaxed ml-4">
+                        Modern PV panels, typically made of crystalline silicon, convert sunlight directly into electricity. Next-generation technologies like **Perovskite solar cells** promise higher efficiency and lower manufacturing costs, potentially revolutionizing the industry by enabling flexible and transparent solar applications.
+                    </p>
+                    <h3 class="text-2xl font-semibold mt-6 mb-3 text-gray-700">Concentrated Solar Power (CSP)</h3>
+                    <p class="text-lg leading-relaxed ml-4">
+                        CSP systems use mirrors to focus a large area of sunlight onto a small receiver, generating intense heat. This heat is used to drive a turbine, often with integrated **thermal storage** (e.g., molten salt), which allows the plant to produce electricity long after the sun sets.
+                    </p>
+                </section>
+
+                <!-- 4. Wind Energy Technologies -->
+                <section id="section-4" class="bg-white p-6 sm:p-8 rounded-xl shadow-xl">
+                    <h2 class="text-3xl font-bold text-primary-green section-header mb-4">4. Wind Energy Technologies</h2>
+                    <p class="text-lg leading-relaxed">
+                        Wind technology converts kinetic energy from wind into electricity using turbines. The key trend is increasing scale and deployment location.
+                    </p>
+                    <h3 class="text-2xl font-semibold mt-6 mb-3 text-gray-700">Turbine Scale and Efficiency</h3>
+                    <p class="text-lg leading-relaxed ml-4">
+                        Modern turbines are massive, with blade lengths exceeding 100 meters, allowing them to capture more energy even at lower wind speeds. Advanced materials and aerodynamic designs have maximized the **capacity factor** of wind farms, ensuring they run closer to their maximum potential.
+                    </p>
+                    <h3 class="text-2xl font-semibold mt-6 mb-3 text-gray-700">Offshore and Floating Wind</h3>
+                    <p class="text-lg leading-relaxed ml-4">
+                        **Offshore wind farms** capitalize on stronger, more consistent winds. The emerging **floating offshore wind** technology allows turbines to be installed in deep waters, opening up vast coastal areas previously unreachable for conventional fixed-bottom turbines.
+                    </p>
+                </section>
+
+                <!-- 5. Hydro Energy Technologies -->
+                <section id="section-5" class="bg-white p-6 sm:p-8 rounded-xl shadow-xl">
+                    <h2 class="text-3xl font-bold text-primary-green section-header mb-4">5. Hydro Energy Technologies</h2>
+                    <p class="text-lg leading-relaxed">
+                        Hydropower, one of the oldest renewable sources, harnesses the energy of moving water. While traditional large-scale dams are common, newer technologies focus on flexibility and environmental impact.
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 mt-4 ml-4 text-lg">
+                        <li>**Pumped Hydro Storage (PHS):** By far the largest form of energy storage globally, PHS uses excess electricity to pump water to an upper reservoir, releasing it through turbines when power is needed.</li>
+                        <li>**Run-of-River Systems:** These systems divert a portion of the river flow through a channel or pipe to turn a turbine, returning the water downstream. They generally have a lower environmental impact than large dams.</li>
+                        <li>**Marine Energy:** Emerging technologies like **tidal and wave energy converters** seek to harness the predictable energy of ocean movements, offering a reliable, non-intermittent source.</li>
+                    </ul>
+                </section>
+
+                <!-- 6. Geothermal Energy Technologies -->
+                <section id="section-6" class="bg-white p-6 sm:p-8 rounded-xl shadow-xl">
+                    <h2 class="text-3xl font-bold text-primary-green section-header mb-4">6. Geothermal Energy Technologies</h2>
+                    <p class="text-lg leading-relaxed">
+                        Geothermal energy taps into the Earth's internal heat. It is a highly reliable, **baseload** (always-on) source of power and heat.
+                    </p>
+                    <h3 class="text-2xl font-semibold mt-6 mb-3 text-gray-700">Enhanced Geothermal Systems (EGS)</h3>
+                    <p class="text-lg leading-relaxed ml-4">
+                        EGS is a game-changing technology that injects cold water deep underground to fracture hot, dry rock, creating a closed-loop system to extract heat. This allows geothermal plants to be built almost anywhere, not just in naturally occurring hydrothermal reservoirs.
+                    </p>
+                    <h3 class="text-2xl font-semibold mt-6 mb-3 text-gray-700">Direct Use and Heat Pumps</h3>
+                    <p class="text-lg leading-relaxed ml-4">
+                        Beyond electricity generation, geothermal technology is used for direct heating of buildings, greenhouses, and industrial processes. **Geothermal heat pumps** use the constant temperature of the shallow ground to provide highly efficient heating and cooling for homes and businesses.
+                    </p>
+                </section>
+
+                <!-- 7. Bioenergy Technologies -->
+                <section id="section-7" class="bg-white p-6 sm:p-8 rounded-xl shadow-xl">
+                    <h2 class="text-3xl font-bold text-primary-green section-header mb-4">7. Bioenergy Technologies</h2>
+                    <p class="text-lg leading-relaxed">
+                        Bioenergy is derived from organic matter (biomass), such as agricultural residues, forestry waste, and dedicated energy crops. Sustainable sourcing is key to its environmental benefit.
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 mt-4 ml-4 text-lg">
+                        <li>**Sustainable Biomass:** Modern power plants use gasification and combustion to efficiently convert biomass into electricity and heat. When paired with sustainable forestry practices, this can be **carbon neutral**.</li>
+                        <li>**Biofuels and Biogas:** **Biofuels** (like ethanol and biodiesel) replace petroleum in transportation, while **biogas** (methane from anaerobic digestion of waste) is a versatile fuel for heating, electricity, or injection into natural gas grids.</li>
+                        <li>**Bioenergy with Carbon Capture and Storage (BECCS):** This technology holds the potential to be **carbon negative**, by capturing the CO₂ released during biomass combustion and permanently storing it underground.</li>
+                    </ul>
+                </section>
+
+                <!-- 8. Energy Storage and Smart Grid Technologies -->
+                <section id="section-8" class="bg-white p-6 sm:p-8 rounded-xl shadow-xl">
+                    <h2 class="text-3xl font-bold text-primary-green section-header mb-4">8. Energy Storage and Smart Grid Technologies</h2>
+                    <p class="text-lg leading-relaxed">
+                        Energy storage and digital infrastructure are essential for managing variable renewable sources and building a resilient grid.
+                    </p>
+                    <h3 class="text-2xl font-semibold mt-6 mb-3 text-gray-700">Advanced Energy Storage</h3>
+                    <p class="text-lg leading-relaxed ml-4">
+                        While **Lithium-ion batteries** dominate short-duration storage, technologies like **Vanadium Redox Flow Batteries (VRFBs)** are emerging for **long-duration storage (LDS)** applications, capable of discharging power for 8+ hours. Additionally, **Green Hydrogen**—produced via electrolysis powered by renewables—is gaining momentum as a chemical energy carrier for long-term seasonal storage.
+                    </p>
+                    <h3 class="text-2xl font-semibold mt-6 mb-3 text-gray-700">Smart Grid Technology</h3>
+                    <p class="text-lg leading-relaxed ml-4">
+                        Smart grids use two-way communication, sensors, and **AI algorithms** to monitor and manage electricity flow in real-time. This allows them to predict renewable output, automatically balance supply and demand, and seamlessly integrate distributed resources like rooftop solar and electric vehicle chargers.
+                    </p>
+                </section>
+
+                <!-- 9. Trends and Future Outlook -->
+                <section id="section-9" class="bg-white p-6 sm:p-8 rounded-xl shadow-xl">
+                    <h2 class="text-3xl font-bold text-primary-green section-header mb-4">9. Trends and Future Outlook</h2>
+                    <p class="text-lg leading-relaxed">
+                        The renewable energy sector is characterized by rapid innovation. Several key trends will shape the next decade:
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 mt-4 ml-4 text-lg">
+                        <li>**Decentralization:** Power generation is moving away from centralized plants to a highly distributed system, incorporating small-scale solar, wind, and storage units at the consumer level.</li>
+                        <li>**Digitalization and AI:** The integration of Artificial Intelligence and machine learning is optimizing everything from site selection and maintenance scheduling to real-time energy trading and demand forecasting.</li>
+                        <li>**Long-Duration Storage Commercialization:** Maturation of technologies like green hydrogen, advanced compressed air, and thermal storage will solve grid challenges for weeks or months, ensuring 100% renewable grids are feasible.</li>
+                        <li>**Circular Economy:** Focus on recycling solar panels, turbine blades, and battery components to minimize waste and ensure the long-term sustainability of the entire renewable supply chain.</li>
+                    </ul>
+                </section>
+
+                <!-- 10. Conclusion -->
+                <section id="section-10" class="bg-primary-green text-white p-8 sm:p-10 rounded-xl shadow-2xl">
+                    <h2 class="text-3xl font-bold mb-4">10. Conclusion</h2>
+                    <p class="text-xl leading-relaxed">
+                        The transition to a sustainable energy system is not just an environmental imperative; it is a technological revolution. Continued advancements in areas like high-efficiency solar cells, floating wind platforms, long-duration energy storage, and smart grid intelligence are accelerating the pace of change. As technology lowers costs and enhances reliability, renewable energy is rapidly becoming the most economical and secure choice for powering the world's future. The convergence of these innovations promises a cleaner, more resilient, and more equitable energy landscape for generations to come.
+                    </p>
+                </section>
+				<div style="text-align:center; margin:25px;">
+  <a href="https://drive.google.com/file/d/1U6JUkhPDkA7j8KZp4FXFz1gJUiyQ-3Md/view?usp=drive_link"
+     target="_blank"
+     style="
+       background-color:#2c6e49;
+       color:#fff;
+       padding:12px 28px;
+       border-radius:8px;
+       text-decoration:none;
+       font-weight:bold;
+       font-size:16px;
+       display:inline-block;
+       transition:background 0.3s ease;">
+    📄 View PDF
+  </a>
+</div>
+
+                <!-- Footer -->
+                <footer class="text-center py-6 text-gray-500 text-sm">
+                    &copy; 2024 Technology for Renewable Energy Report. All rights reserved.
+                </footer>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
